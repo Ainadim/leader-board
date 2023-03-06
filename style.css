@@ -170,11 +170,24 @@ hr {
 .course-icons, .time {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .course-star i {
     font-size: 15px;
     color: #ffc014;
 }
-.course-icons p {
-    font-size: 15px;
+.course-icons p, i {
+    font-size: 11px;
+    color: #FF4A60;
+    font-weight: 800;
+}
+.time {
+    background: #FFE4E8;
+    padding: 0 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.time  p {
+    margin-left: 10px;
 }
